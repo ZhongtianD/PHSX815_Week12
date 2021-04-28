@@ -38,7 +38,7 @@ def main(Nsamples: int, Nclusters: int):
 if __name__ == '__main__':
     parser = ArgumentParser()
 
-    parser.add_argument("-Ns", "--Nsample", type=int, default=1500,
+    parser.add_argument("-Ns", "--Nsamples", type=int, default=1500,
                         help="Number of samples for each experiment.")
     
     parser.add_argument("-Nc", "--Nclusters", type=int, default=5,
