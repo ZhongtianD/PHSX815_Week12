@@ -30,10 +30,10 @@ def main(Nsamples: int, Nclusters: int):
     plt.scatter(X[:, 0], X[:, 1], c=y_pred)
     plt.show
     plt.savefig('K_means_results.png')
-    print('True centers :' +
-         C)
-    print('predicted centers :' +
-         KM.cluster_centers_)
+    print('True centers :')
+    print(C)
+    print('predicted centers :')
+    print(KM.cluster_centers_)
 
 if __name__ == '__main__':
     parser = ArgumentParser()
