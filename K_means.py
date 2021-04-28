@@ -41,7 +41,7 @@ if __name__ == '__main__':
     parser.add_argument("-Ns", "--Nsample", type=int, default=1500,
                         help="Number of samples for each experiment.")
     
-    parser.add_argument("-Ns", "--Nclusters", type=int, default=5,
+    parser.add_argument("-Nc", "--Nclusters", type=int, default=5,
                         help="Number of clusters for K means algorithm.")
 
 
