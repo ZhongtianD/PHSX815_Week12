@@ -28,8 +28,8 @@ def main(Nsamples: int, Nclusters: int):
     y_pred = KM.fit_predict(X)
     #generating plot
     plt.scatter(X[:, 0], X[:, 1], c=y_pred)
-    plt.show
     plt.savefig('K_means_results.png')
+    plt.show
     print('True centers :')
     print(C)
     print('predicted centers :')
